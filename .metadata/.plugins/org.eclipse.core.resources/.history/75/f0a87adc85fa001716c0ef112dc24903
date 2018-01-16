@@ -1,0 +1,21 @@
+package edu.fju.exam;
+
+public class Bubble {
+
+	public static void main(String[] args) {
+		int[] numbers = {45,81,9,72,4,6} ;
+		for (int a = 0;a < 6;a++){
+			for(int i = a + 1; i < 6;i++){
+				if(numbers[a] < numbers[i]){
+					int tmb = numbers[i];
+					numbers[i] = numbers[a];
+					numbers[a] = tmb;
+					
+				}
+			}
+			System.out.print(numbers[a]+" ");
+		}
+
+	}
+
+}
