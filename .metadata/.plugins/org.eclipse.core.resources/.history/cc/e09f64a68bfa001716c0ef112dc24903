@@ -1,0 +1,15 @@
+package edu.fju.exam;
+
+import Employee;
+
+public class Manager extends Employee {
+	public Manager(){
+		super();
+	}
+	@Override
+	public void print(){
+		
+	}
+	
+
+}

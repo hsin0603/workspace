@@ -1,0 +1,7 @@
+package employees;
+
+import Employee;
+
+public class Manager extends Employee {
+
+}

@@ -1,0 +1,9 @@
+package edu.fju.exam;
+
+import Employee;
+
+public class Manager extends Employee {
+	
+	
+
+}

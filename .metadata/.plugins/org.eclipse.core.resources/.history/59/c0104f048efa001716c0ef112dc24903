@@ -1,0 +1,21 @@
+package edu.fju.exam;
+
+public class Director extends  Employee{
+	public Director(String name,int money,int rad){
+    	this.name = name;
+		this.money = money;
+		this.rad = rad;
+	int money ;
+	String name ;
+	int rad
+    	
+    	
+    }
+   
+    public void print(){
+		System.out.println(name+"\t"+(money+5000)+"("+rad+")");
+	
+    }
+    
+
+}
