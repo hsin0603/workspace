@@ -8,7 +8,7 @@ public class VendingMachine {
 		int price = 0;
 		System.out.println("販賣機餘額:"+price);
 		while(true){
-		System.out.print("投幣或選擇飲料, 有8種(a、b、c、d、e、f、g、h)，或輸入0結束:");
+		System.out.print("投幣或選擇飲料, 有三種(a或b或c)，或輸入0結束:");
 		Scanner scanner = new Scanner(System.in);
 		String line = scanner.nextLine();
 		switch (line) {
